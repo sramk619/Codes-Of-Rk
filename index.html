@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Weather API</title>
+    
+</head>
+<body id="container">
+    <h1 id="headding">Weather Monitor</h1>
+    <img src="weather-icon-png-2.png" alt="weather" id="image" onclick = "scearchcity()">
+    <br>
+    <div>
+        <input type="text" id="cityname" placeholder="City Name" id="inbox">
+    </div>
+    <div>
+        <input type="submit" onclick = "scearchcity()" value="Search" id="button">
+    </div>
+    <div id="output">
+        <h2>City: <span id="city-name">---</span></h2>
+        <br>
+        <h2>Weather: <span id="W-type">----</span></h2>
+        <br>
+        <h3>Max Temp: <span id="max-temp">---</span>F°</h3>
+        <h3>Min Temp: <span id="min-temp">---</span>F°</h3>
+
+    </div>
+    
+</body>
+</html>
